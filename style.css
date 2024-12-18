@@ -1,5 +1,6 @@
 a, a:active, a:visited {
-    color: #00ff00;
+    color: #00ec00;
+    text-decoration: none;
 }
 
 a:hover {
@@ -50,9 +51,8 @@ h1 {
 
 main {
     display: inline-block;
-    width: 50%;
-    /* width: 550px;
-    height: 420px; */
+    width: 550px;
+    height: 420px;
     margin: auto;
     border: 3px solid #000099;
     padding: 12px 20px 12px 20px;
