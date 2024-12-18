@@ -1,0 +1,59 @@
+body {
+    background-color: #212224;
+    color:#f8f1df;
+    text-align: center;
+    font-size: 18px; 
+}
+
+h1 {
+    color:  #00d7ff;
+}
+
+.center {
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+}
+
+main {
+    display: inline-block;
+    width: 550px;
+    height: 440px;
+    margin: auto;
+    border: 3px solid #000099;
+    padding: 12px 20px 12px 20px;
+}
+
+a:link {
+    color: #00ff00;
+}
+
+a:hover {
+    background: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#560094,#8B00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    
+    -webkit-animation: rainbowanim 7s ease infinite;
+       -moz-animation: rainbowanim 7s ease infinite;
+            animation: rainbowanim 7s ease infinite;
+  }
+  
+  @-webkit-keyframes rainbowanim {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes rainbowanim {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes rainbowanim { 
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  
