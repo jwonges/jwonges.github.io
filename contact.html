@@ -7,41 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-    function copyToClipboard() {
-    var textarea = document.getElementById('copy-text');
-    textarea.select();
-    document.execCommand('copy');
-    }
-</script>
-
 <div class="center">
 <body>
-    <header>
-        <h1><i>JESSICA WONGES</i></h1>
-        
-    </header>
-
-    <main>
-        <p>
-            <a href="https://github.com/jwonges" target="_blank">github</a>  //
-            <a href="https://www.linkedin.com/in/jwonges/" target="_blank">linkedin</a> 
-        </p>
-        <p>e-mail:</p><textarea id="copy-text">jessica.wonges@uni-duesseldorf.de</textarea><br>
-        <button onclick="copyToClipboard()">Copy to Clipboard</button>
-
-    </main>
-    
-
-    
     <p>
         <nav>
-            <a href="./index.html">home</a>  //
-            <a href="./personal.html">about me</a> //
+            <a href="./index.html">home</a> <img src="/images/dot.gif">
+            <a href="./personal.html">about me</a> <img src="/images/dot.gif">
             <a href="./contact.html">contact</a>
         </nav>
     </p>
-    
+
+    <header>
+        <h1><i>JESSICA WONGES</i></h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <p><img src="./images/email.gif"></p>
+            <textarea id="copy-text">jessica.wonges@uni-duesseldorf.de</textarea><br></p>
+            <button onclick="copyToClipboard()">Copy to Clipboard</button>
+
+            <script>
+                function copyToClipboard() {
+                var textarea = document.getElementById('copy-text');
+                textarea.select();
+                document.execCommand('copy');
+                }
+            </script>
+            
+            <p>
+                <a href="https://github.com/jwonges" target="_blank"><img src="./images/github.png" id="imshake" width="40"></a>&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/jwonges/" target="_blank"><img src="./images/linkedin.png" id="imshake" width="40"></a> 
+            </p>
+        </main>
+    </div>
 </div>
 
 </body>
